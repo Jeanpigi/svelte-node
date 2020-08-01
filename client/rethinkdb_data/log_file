@@ -1,0 +1,25 @@
+2020-08-01T09:34:01.364697000 0.125395s notice: Recursively removing directory /Users/jp/development/svelte/svelte-node/client/rethinkdb_data/tmp
+2020-08-01T09:34:01.371128000 0.131832s notice: Initializing directory /Users/jp/development/svelte/svelte-node/client/rethinkdb_data
+2020-08-01T09:34:01.371371000 0.132068s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jp/development/svelte/svelte-node/client/rethinkdb_data' did not already exist or is empty.)
+2020-08-01T09:34:01.372252000 0.132950s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T09:34:01.390495000 0.151194s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T09:34:01.390620000 0.151317s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/client/rethinkdb_data
+2020-08-01T09:34:01.565562000 0.326259s info: Automatically using cache size of 100 MB
+2020-08-01T09:34:01.565578000 0.326274s warn: Cache size does not leave much memory for server and query overhead (available memory: 853 MB).
+2020-08-01T09:34:01.565588000 0.326284s warn: Cache size is very low and may impact performance.
+2020-08-01T09:34:01.568918000 0.329614s notice: Listening for intracluster connections on port 29015
+2020-08-01T09:34:01.572149000 0.332845s notice: Listening for client driver connections on port 28015
+2020-08-01T09:34:01.572282000 0.332978s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T09:34:01.572293000 0.332989s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-08-01T09:34:01.572303000 0.332999s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-08-01T09:34:01.572317000 0.333012s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-08-01T09:34:01.572326000 0.333022s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-08-01T09:34:01.572334000 0.333030s notice: Server ready, "jp_local_0cm" c6324f72-055b-428a-8e60-604160de9cde
+2020-08-01T10:05:47.395328000 1906.114039s info: Table afe04114-e69e-42bf-99e8-7d8b551ef3a8: Starting a new Raft election for term 1.
+2020-08-01T10:05:47.398098000 1906.116808s info: Table afe04114-e69e-42bf-99e8-7d8b551ef3a8: Added replica on this server.
+2020-08-01T10:05:47.415713000 1906.134424s info: Table afe04114-e69e-42bf-99e8-7d8b551ef3a8: This server is Raft leader for term 1. Latest log index is 0.
+2020-08-01T14:17:27.967389000 16434.311553s notice: Server got SIGINT from pid 493, uid 501; shutting down...
+2020-08-01T14:17:27.968226000 16434.312385s notice: Shutting down client connections...
+2020-08-01T14:17:27.970096000 16434.314256s notice: All client connections closed.
+2020-08-01T14:17:27.970106000 16434.314265s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T14:17:27.996465000 16434.340624s notice: Storage engine shut down.

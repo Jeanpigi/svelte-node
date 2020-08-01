@@ -6,7 +6,7 @@ const mode = process.env.NODE_ENV || "development";
 const prod = mode === "production";
 
 module.exports = {
-  entry: "./src/index.js", // Elegimos nuestro punto de entrada
+  entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
@@ -50,6 +50,11 @@ module.exports = {
   devServer: {
     inline: true,
     port: 8008,
+    proxy: {
+      "/api/books": {
+        target: "http://localhost:3000",
+      },
+    },
   },
   plugins: [
     new HtmlWebpackPlugin({
