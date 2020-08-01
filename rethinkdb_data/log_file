@@ -1,0 +1,125 @@
+2020-07-30T12:53:55.381765000 0.118393s notice: Recursively removing directory /Users/jp/development/svelte/svelte-node/rethinkdb_data/tmp
+2020-07-30T12:53:55.385147000 0.121778s notice: Initializing directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-07-30T12:53:55.385331000 0.121958s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jp/development/svelte/svelte-node/rethinkdb_data' did not already exist or is empty.)
+2020-07-30T12:53:55.386995000 0.123623s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-07-30T12:53:55.412274000 0.148901s notice: Running on Darwin 19.6.0 x86_64
+2020-07-30T12:53:55.412431000 0.149057s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-07-30T12:53:55.627732000 0.364353s info: Automatically using cache size of 100 MB
+2020-07-30T12:53:55.627748000 0.364369s warn: Cache size does not leave much memory for server and query overhead (available memory: 582 MB).
+2020-07-30T12:53:55.627760000 0.364381s warn: Cache size is very low and may impact performance.
+2020-07-30T12:53:55.632517000 0.369138s notice: Listening for intracluster connections on port 29015
+2020-07-30T12:53:55.641079000 0.377700s notice: Listening for client driver connections on port 28015
+2020-07-30T12:53:55.641219000 0.377840s notice: Listening for administrative HTTP connections on port 8080
+2020-07-30T12:53:55.641230000 0.377850s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-07-30T12:53:55.641238000 0.377859s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-07-30T12:53:55.641247000 0.377867s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-07-30T12:53:55.641255000 0.377876s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-07-30T12:53:55.641263000 0.377884s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-07-30T14:39:31.274408000 6335.749866s info: Table 6e6f5f0f-8dd2-495d-bed4-ac759c9171fc: Starting a new Raft election for term 1.
+2020-07-30T14:39:31.276463000 6335.751921s info: Table 6e6f5f0f-8dd2-495d-bed4-ac759c9171fc: Added replica on this server.
+2020-07-30T14:39:31.291981000 6335.767438s info: Table 6e6f5f0f-8dd2-495d-bed4-ac759c9171fc: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-30T14:57:45.431351000 7429.860622s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/6e6f5f0f-8dd2-495d-bed4-ac759c9171fc
+2020-07-30T14:57:45.431393000 7429.860664s info: Table 6e6f5f0f-8dd2-495d-bed4-ac759c9171fc: Deleted the table.
+2020-07-30T15:29:22.702465000 9327.050820s notice: Server got SIGINT from pid 909, uid 501; shutting down...
+2020-07-30T15:29:22.702980000 9327.051335s notice: Shutting down client connections...
+2020-07-30T15:29:22.703656000 9327.052010s notice: All client connections closed.
+2020-07-30T15:29:22.703664000 9327.052017s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-07-30T15:29:22.708122000 9327.056474s notice: Storage engine shut down.
+2020-07-30T17:00:59.995509000 0.118696s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-07-30T17:01:00.030923000 0.154103s notice: Running on Darwin 19.6.0 x86_64
+2020-07-30T17:01:00.031181000 0.154360s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-07-30T17:01:00.101998000 0.225175s info: Automatically using cache size of 100 MB
+2020-07-30T17:01:00.102014000 0.225190s warn: Cache size does not leave much memory for server and query overhead (available memory: 573 MB).
+2020-07-30T17:01:00.102021000 0.225197s warn: Cache size is very low and may impact performance.
+2020-07-30T17:01:00.111933000 0.235109s notice: Listening for intracluster connections on port 29015
+2020-07-30T17:01:00.118327000 0.241503s notice: Listening for client driver connections on port 28015
+2020-07-30T17:01:00.118532000 0.241709s notice: Listening for administrative HTTP connections on port 8080
+2020-07-30T17:01:00.118540000 0.241716s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-07-30T17:01:00.118547000 0.241723s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-07-30T17:01:00.118554000 0.241730s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-07-30T17:01:00.118561000 0.241736s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-07-30T17:01:00.118567000 0.241743s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-07-31T18:57:00.947546000 0.090813s notice: Recursively removing directory /Users/jp/development/svelte/svelte-node/rethinkdb_data/tmp
+2020-07-31T18:57:00.951021000 0.094293s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-07-31T18:57:00.959812000 0.103079s notice: Running on Darwin 19.6.0 x86_64
+2020-07-31T18:57:00.959907000 0.103174s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-07-31T18:57:01.003025000 0.146292s info: Automatically using cache size of 100 MB
+2020-07-31T18:57:01.003041000 0.146307s warn: Cache size is very low and may impact performance.
+2020-07-31T18:57:01.018980000 0.162247s notice: Listening for intracluster connections on port 29015
+2020-07-31T18:57:01.022387000 0.165654s notice: Listening for client driver connections on port 28015
+2020-07-31T18:57:01.022606000 0.165873s notice: Listening for administrative HTTP connections on port 8080
+2020-07-31T18:57:01.022622000 0.165888s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-07-31T18:57:01.022630000 0.165896s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-07-31T18:57:01.022638000 0.165904s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-07-31T18:57:01.022646000 0.165912s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-07-31T18:57:01.022656000 0.165922s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-07-31T20:02:35.517811000 3934.505890s info: Table 3ce91df4-6ca2-4973-ad6f-cfdaad99857a: Starting a new Raft election for term 1.
+2020-07-31T20:02:35.518812000 3934.506888s info: Table 3ce91df4-6ca2-4973-ad6f-cfdaad99857a: Added replica on this server.
+2020-07-31T20:02:35.545390000 3934.533465s info: Table 3ce91df4-6ca2-4973-ad6f-cfdaad99857a: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T20:08:48.751944000 4307.711096s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/3ce91df4-6ca2-4973-ad6f-cfdaad99857a
+2020-07-31T20:08:48.751955000 4307.711105s info: Table 3ce91df4-6ca2-4973-ad6f-cfdaad99857a: Deleted the table.
+2020-07-31T20:10:43.465264000 4422.420975s notice: Server got SIGINT from pid 425, uid 501; shutting down...
+2020-07-31T20:10:43.465458000 4422.421168s notice: Shutting down client connections...
+2020-07-31T20:10:43.465715000 4422.421426s notice: All client connections closed.
+2020-07-31T20:10:43.465731000 4422.421441s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-07-31T20:10:43.477035000 4422.432745s notice: Storage engine shut down.
+2020-07-31T20:10:50.357199000 0.019077s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-07-31T20:10:50.366261000 0.028134s notice: Running on Darwin 19.6.0 x86_64
+2020-07-31T20:10:50.366340000 0.028212s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-07-31T20:10:50.395585000 0.057456s info: Automatically using cache size of 100 MB
+2020-07-31T20:10:50.395597000 0.057469s warn: Cache size does not leave much memory for server and query overhead (available memory: 786 MB).
+2020-07-31T20:10:50.395606000 0.057477s warn: Cache size is very low and may impact performance.
+2020-07-31T20:10:50.396611000 0.058482s notice: Listening for intracluster connections on port 29015
+2020-07-31T20:10:50.398352000 0.060224s notice: Listening for client driver connections on port 28015
+2020-07-31T20:10:50.398443000 0.060314s notice: Listening for administrative HTTP connections on port 8080
+2020-07-31T20:10:50.398451000 0.060322s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-07-31T20:10:50.398461000 0.060332s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-07-31T20:10:50.398467000 0.060338s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-07-31T20:10:50.398473000 0.060344s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-07-31T20:10:50.398479000 0.060350s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-07-31T20:18:14.312807000 443.961362s info: Table 1b10b02c-4a81-4cd4-951e-bbb72f617e63: Starting a new Raft election for term 1.
+2020-07-31T20:18:14.314531000 443.963086s info: Table 1b10b02c-4a81-4cd4-951e-bbb72f617e63: Added replica on this server.
+2020-07-31T20:18:14.330005000 443.978560s info: Table 1b10b02c-4a81-4cd4-951e-bbb72f617e63: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T20:19:49.000494000 538.631522s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/1b10b02c-4a81-4cd4-951e-bbb72f617e63
+2020-07-31T20:19:49.000506000 538.631534s info: Table 1b10b02c-4a81-4cd4-951e-bbb72f617e63: Deleted the table.
+2020-07-31T20:20:18.838836000 568.468840s info: Table dab3a8cb-64fb-46ee-8208-86487f79273c: Starting a new Raft election for term 1.
+2020-07-31T20:20:18.839263000 568.469267s info: Table dab3a8cb-64fb-46ee-8208-86487f79273c: Added replica on this server.
+2020-07-31T20:20:18.855766000 568.485770s info: Table dab3a8cb-64fb-46ee-8208-86487f79273c: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T20:23:59.874518000 789.497869s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/dab3a8cb-64fb-46ee-8208-86487f79273c
+2020-07-31T20:23:59.874528000 789.497879s info: Table dab3a8cb-64fb-46ee-8208-86487f79273c: Deleted the table.
+2020-07-31T20:24:43.339035000 832.961082s info: Table 9241a86a-de31-46db-b1a1-b5186b1310ce: Starting a new Raft election for term 1.
+2020-07-31T20:24:43.339375000 832.961423s info: Table 9241a86a-de31-46db-b1a1-b5186b1310ce: Added replica on this server.
+2020-07-31T20:24:43.368450000 832.990497s info: Table 9241a86a-de31-46db-b1a1-b5186b1310ce: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T21:42:48.848688000 5518.272763s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/9241a86a-de31-46db-b1a1-b5186b1310ce
+2020-07-31T21:42:48.848703000 5518.272777s info: Table 9241a86a-de31-46db-b1a1-b5186b1310ce: Deleted the table.
+2020-07-31T21:43:04.423733000 5533.847341s info: Table 29e33b8a-8788-4914-9af9-4551f5a2fe81: Added replica on this server.
+2020-07-31T21:43:04.423787000 5533.847395s info: Table 29e33b8a-8788-4914-9af9-4551f5a2fe81: Starting a new Raft election for term 1.
+2020-07-31T21:43:04.461563000 5533.885169s info: Table 29e33b8a-8788-4914-9af9-4551f5a2fe81: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T22:19:45.529102000 7734.855020s info: Table 68a0fe33-ac09-4a56-8155-250ff99647b2: Starting a new Raft election for term 1.
+2020-07-31T22:19:45.529454000 7734.855372s info: Table 68a0fe33-ac09-4a56-8155-250ff99647b2: Added replica on this server.
+2020-07-31T22:19:45.548597000 7734.874514s info: Table 68a0fe33-ac09-4a56-8155-250ff99647b2: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T22:19:46.396251000 7735.722132s info: Table 68a0fe33-ac09-4a56-8155-250ff99647b2: Configuration is changing.
+2020-07-31T22:21:00.027800000 7809.351282s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/29e33b8a-8788-4914-9af9-4551f5a2fe81
+2020-07-31T22:21:00.027818000 7809.351300s info: Table 29e33b8a-8788-4914-9af9-4551f5a2fe81: Deleted the table.
+2020-07-31T22:23:01.494872000 7930.814708s info: Table 34aac996-87db-4049-848f-c2383cb010d3: Starting a new Raft election for term 1.
+2020-07-31T22:23:01.495203000 7930.815039s info: Table 34aac996-87db-4049-848f-c2383cb010d3: Added replica on this server.
+2020-07-31T22:23:01.532979000 7930.852814s info: Table 34aac996-87db-4049-848f-c2383cb010d3: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T22:23:02.367211000 7931.687022s info: Table 34aac996-87db-4049-848f-c2383cb010d3: Configuration is changing.
+2020-07-31T22:24:34.402902000 8023.719952s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/34aac996-87db-4049-848f-c2383cb010d3
+2020-07-31T22:24:34.402913000 8023.719961s info: Table 34aac996-87db-4049-848f-c2383cb010d3: Deleted the table.
+2020-07-31T22:24:34.480940000 8023.797987s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/68a0fe33-ac09-4a56-8155-250ff99647b2
+2020-07-31T22:24:34.480955000 8023.798001s info: Table 68a0fe33-ac09-4a56-8155-250ff99647b2: Deleted the table.
+2020-07-31T22:27:26.455811000 8195.767699s info: Table c1f29c50-d9b1-4d26-b534-818ec3b96efe: Starting a new Raft election for term 1.
+2020-07-31T22:27:26.456352000 8195.768240s info: Table c1f29c50-d9b1-4d26-b534-818ec3b96efe: Added replica on this server.
+2020-07-31T22:27:26.473266000 8195.785153s info: Table c1f29c50-d9b1-4d26-b534-818ec3b96efe: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T22:27:27.316977000 8196.628839s info: Table c1f29c50-d9b1-4d26-b534-818ec3b96efe: Configuration is changing.
+2020-07-31T22:30:23.553704000 8372.860279s info: Table 36079302-a147-4c7a-a911-48d83c572190: Starting a new Raft election for term 1.
+2020-07-31T22:30:23.554420000 8372.860996s info: Table 36079302-a147-4c7a-a911-48d83c572190: Added replica on this server.
+2020-07-31T22:30:23.592298000 8372.898872s info: Table 36079302-a147-4c7a-a911-48d83c572190: This server is Raft leader for term 1. Latest log index is 0.
+2020-07-31T22:30:36.878999000 8386.185175s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/c1f29c50-d9b1-4d26-b534-818ec3b96efe
+2020-07-31T22:30:36.879012000 8386.185187s info: Table c1f29c50-d9b1-4d26-b534-818ec3b96efe: Deleted the table.
+2020-07-31T22:34:14.871366000 8604.161644s notice: Server got SIGINT from pid 425, uid 501; shutting down...
+2020-07-31T22:34:14.871593000 8604.161870s notice: Shutting down client connections...
+2020-07-31T22:34:14.871771000 8604.162047s notice: All client connections closed.
+2020-07-31T22:34:14.871781000 8604.162057s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-07-31T22:34:14.885986000 8604.176261s notice: Storage engine shut down.

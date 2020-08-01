@@ -1,0 +1,24 @@
+{
+  "name": "svelte-node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Jean Pierre <stick-master666@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "nodemon server.js --ignore 'client/'",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "rethinkdb": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
