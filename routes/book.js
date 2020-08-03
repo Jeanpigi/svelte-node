@@ -12,7 +12,7 @@ const searchTable = searchDatabase.table(tableName);
 
 /* get all books */
 router.get("/", async (req, res) => {
-  if (!searchDatabase) {
+  if (searchDatabase) {
     // create db
     await r.dbCreate(databaseName).run(req._rdbConn).then(() => {
       console.log(`table ${tableName} was created`);
@@ -21,7 +21,7 @@ router.get("/", async (req, res) => {
         res.send(500, { error: error.message });
       };
     });
-  } else if (!searchTable) {
+  } else if (searchTable) {
     // create table
     await searchDatabase.tableCreate(tableName).run(req._rdbConn).then(() => {
       console.log(`table ${tableName} was created`);
