@@ -3,16 +3,16 @@
   import { onMount } from "svelte";
   import Loading from "./Loading.svelte";
   import Book from "./Book.svelte";
+  import { books } from "../store.js";
 
   let book = "";
   let author = "";
-  let books = [];
   let loading = false;
 
   onMount(async () => {
     loading = true;
     const { data } = await axios.get("/api/books");
-    books = data;
+    $books = data;
     loading = false;
   });
 
@@ -23,7 +23,7 @@
     };
 
     const response = await axios.post("/api/books", libro);
-    books = [response.data, ...books];
+    $books = [response.data, ...$books];
     book = "";
     author = "";
   };
@@ -31,7 +31,7 @@
   const removeBook = async (id) => {
     const response = await axios.delete(`/api/books/${id}`);
     if (response.data.id === id) {
-      books = books.filter((t) => t._id !== id);
+      $books = $books.filter((t) => t._id !== id);
     }
   };
 </script>
@@ -79,7 +79,7 @@
   {#if !books}
     <div class="notification">Add your first book</div>
   {:else}
-    {#each books as book (book.id)}
+    {#each $books as book (book.id)}
       <Book {book} {removeBook} />
     {/each}
   {/if}

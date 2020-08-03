@@ -123,3 +123,184 @@
 2020-07-31T22:34:14.871771000 8604.162047s notice: All client connections closed.
 2020-07-31T22:34:14.871781000 8604.162057s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2020-07-31T22:34:14.885986000 8604.176261s notice: Storage engine shut down.
+2020-08-01T18:21:07.304608000 0.120796s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T18:21:07.314225000 0.130409s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T18:21:07.314327000 0.130510s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T18:21:07.363639000 0.179822s info: Automatically using cache size of 100 MB
+2020-08-01T18:21:07.363655000 0.179838s warn: Cache size is very low and may impact performance.
+2020-08-01T18:21:07.387325000 0.203508s notice: Listening for intracluster connections on port 29015
+2020-08-01T18:21:07.410045000 0.226228s notice: Listening for client driver connections on port 28015
+2020-08-01T18:21:07.410136000 0.226319s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T18:21:07.410140000 0.226322s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-08-01T18:21:07.410142000 0.226325s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-08-01T18:21:07.410211000 0.226394s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-08-01T18:21:07.410215000 0.226398s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-08-01T18:21:07.410228000 0.226410s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T18:21:08.569792000 1.385975s info: Table 36079302-a147-4c7a-a911-48d83c572190: Starting a new Raft election for term 2.
+2020-08-01T18:21:08.618147000 1.434330s info: Table 36079302-a147-4c7a-a911-48d83c572190: This server is Raft leader for term 2. Latest log index is 3.
+2020-08-01T19:12:23.266120000 2365.533521s notice: Server got SIGINT from pid 474, uid 501; shutting down...
+2020-08-01T19:12:23.266394000 2365.533795s notice: Shutting down client connections...
+2020-08-01T19:12:23.266588000 2365.533988s notice: All client connections closed.
+2020-08-01T19:12:23.266594000 2365.533995s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T19:12:23.282781000 2365.550182s notice: Storage engine shut down.
+2020-08-01T19:12:31.194420000 0.020201s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T19:12:31.200948000 0.026725s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T19:12:31.201036000 0.026813s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T19:12:31.239582000 0.065359s info: Automatically using cache size of 100 MB
+2020-08-01T19:12:31.239593000 0.065369s warn: Cache size does not leave much memory for server and query overhead (available memory: 966 MB).
+2020-08-01T19:12:31.239601000 0.065377s warn: Cache size is very low and may impact performance.
+2020-08-01T19:12:31.242778000 0.068554s notice: Listening for intracluster connections on port 29015
+2020-08-01T19:12:31.259407000 0.085183s notice: Listening for client driver connections on port 28015
+2020-08-01T19:12:31.259558000 0.085335s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T19:12:31.259563000 0.085339s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T19:12:31.259707000 0.085483s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T19:12:31.259711000 0.085487s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T19:12:31.259723000 0.085499s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T19:12:32.684344000 1.510108s info: Table 36079302-a147-4c7a-a911-48d83c572190: Starting a new Raft election for term 3.
+2020-08-01T19:12:32.722684000 1.548449s info: Table 36079302-a147-4c7a-a911-48d83c572190: This server is Raft leader for term 3. Latest log index is 7.
+2020-08-01T19:18:23.157360000 351.980192s notice: Server got SIGINT from pid 474, uid 501; shutting down...
+2020-08-01T19:18:23.157836000 351.980667s notice: Shutting down client connections...
+2020-08-01T19:18:23.159127000 351.981959s notice: All client connections closed.
+2020-08-01T19:18:23.159146000 351.981978s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T19:18:23.168359000 351.991190s notice: Storage engine shut down.
+2020-08-01T19:19:03.640418000 0.054979s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T19:19:03.652446000 0.067002s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T19:19:03.652521000 0.067076s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T19:19:03.692027000 0.106582s info: Automatically using cache size of 100 MB
+2020-08-01T19:19:03.692036000 0.106590s warn: Cache size does not leave much memory for server and query overhead (available memory: 761 MB).
+2020-08-01T19:19:03.692042000 0.106596s warn: Cache size is very low and may impact performance.
+2020-08-01T19:19:03.708402000 0.122957s notice: Listening for intracluster connections on port 29015
+2020-08-01T19:19:03.733425000 0.147980s notice: Listening for client driver connections on port 28015
+2020-08-01T19:19:03.733699000 0.148253s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T19:19:03.733702000 0.148256s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T19:19:03.733708000 0.148262s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T19:19:03.733728000 0.148282s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T19:19:03.733731000 0.148286s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T19:19:05.251836000 1.666377s info: Table 36079302-a147-4c7a-a911-48d83c572190: Starting a new Raft election for term 4.
+2020-08-01T19:19:05.276901000 1.691443s info: Table 36079302-a147-4c7a-a911-48d83c572190: This server is Raft leader for term 4. Latest log index is 11.
+2020-08-01T20:14:21.514003000 3317.773728s notice: Server got SIGINT from pid 474, uid 501; shutting down...
+2020-08-01T20:14:21.517788000 3317.777513s notice: Shutting down client connections...
+2020-08-01T20:14:21.527333000 3317.787058s notice: All client connections closed.
+2020-08-01T20:14:21.527342000 3317.787066s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T20:14:21.577411000 3317.837135s notice: Storage engine shut down.
+2020-08-01T20:14:29.354737000 0.055246s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T20:14:29.413552000 0.114053s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T20:14:29.413644000 0.114144s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T20:14:29.475742000 0.176240s info: Automatically using cache size of 100 MB
+2020-08-01T20:14:29.475753000 0.176251s warn: Cache size does not leave much memory for server and query overhead (available memory: 900 MB).
+2020-08-01T20:14:29.475760000 0.176257s warn: Cache size is very low and may impact performance.
+2020-08-01T20:14:29.511297000 0.211794s notice: Listening for intracluster connections on port 29015
+2020-08-01T20:14:29.544829000 0.245325s notice: Listening for client driver connections on port 28015
+2020-08-01T20:14:29.545021000 0.245517s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T20:14:29.545034000 0.245530s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T20:14:29.545038000 0.245534s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T20:14:29.545062000 0.245559s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T20:14:29.545077000 0.245573s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T20:14:31.324116000 2.024558s info: Table 36079302-a147-4c7a-a911-48d83c572190: Starting a new Raft election for term 5.
+2020-08-01T20:14:31.337703000 2.038145s info: Table 36079302-a147-4c7a-a911-48d83c572190: This server is Raft leader for term 5. Latest log index is 15.
+2020-08-01T20:50:24.695247000 2149.700455s notice: Server got SIGINT from pid 474, uid 501; shutting down...
+2020-08-01T20:50:24.699260000 2149.704468s notice: Shutting down client connections...
+2020-08-01T20:50:24.709303000 2149.714510s notice: All client connections closed.
+2020-08-01T20:50:24.709312000 2149.714519s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T20:50:24.763243000 2149.768448s notice: Storage engine shut down.
+2020-08-01T21:42:54.063127000 0.127566s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T21:42:54.088182000 0.152614s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T21:42:54.088273000 0.152704s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T21:42:54.122355000 0.186786s info: Automatically using cache size of 100 MB
+2020-08-01T21:42:54.122370000 0.186800s warn: Cache size does not leave much memory for server and query overhead (available memory: 849 MB).
+2020-08-01T21:42:54.122380000 0.186810s warn: Cache size is very low and may impact performance.
+2020-08-01T21:42:54.128400000 0.192830s notice: Listening for intracluster connections on port 29015
+2020-08-01T21:42:54.152669000 0.217099s notice: Listening for client driver connections on port 28015
+2020-08-01T21:42:54.152854000 0.217284s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T21:42:54.152859000 0.217288s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T21:42:54.152862000 0.217291s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T21:42:54.152874000 0.217303s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T21:42:54.152876000 0.217305s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T21:42:55.947302000 2.011677s info: Table 36079302-a147-4c7a-a911-48d83c572190: Starting a new Raft election for term 6.
+2020-08-01T21:42:55.975646000 2.040021s info: Table 36079302-a147-4c7a-a911-48d83c572190: This server is Raft leader for term 6. Latest log index is 19.
+2020-08-01T21:43:12.192752000 18.256640s notice: Removing file /Users/jp/development/svelte/svelte-node/rethinkdb_data/36079302-a147-4c7a-a911-48d83c572190
+2020-08-01T21:43:12.192762000 18.256650s info: Table 36079302-a147-4c7a-a911-48d83c572190: Deleted the table.
+2020-08-01T21:59:13.579653000 979.604758s notice: Server got SIGINT from pid 474, uid 501; shutting down...
+2020-08-01T21:59:13.579870000 979.604975s notice: Shutting down client connections...
+2020-08-01T21:59:13.580045000 979.605150s notice: All client connections closed.
+2020-08-01T21:59:13.580054000 979.605160s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T21:59:13.592589000 979.617694s notice: Storage engine shut down.
+2020-08-01T22:02:31.811017000 0.139041s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T22:02:31.824844000 0.152864s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T22:02:31.824920000 0.152938s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T22:02:31.862944000 0.190962s info: Automatically using cache size of 100 MB
+2020-08-01T22:02:31.862953000 0.190970s warn: Cache size does not leave much memory for server and query overhead (available memory: 692 MB).
+2020-08-01T22:02:31.862959000 0.190976s warn: Cache size is very low and may impact performance.
+2020-08-01T22:02:31.877462000 0.205479s notice: Listening for intracluster connections on port 29015
+2020-08-01T22:02:31.881139000 0.209156s notice: Listening for client driver connections on port 28015
+2020-08-01T22:02:31.881293000 0.209310s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T22:02:31.881299000 0.209316s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T22:02:31.881304000 0.209321s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T22:02:31.881309000 0.209326s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T22:02:31.881313000 0.209330s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T22:07:13.032609000 281.338121s notice: Server got SIGINT from pid 474, uid 501; shutting down...
+2020-08-01T22:07:13.032759000 281.338270s notice: Shutting down client connections...
+2020-08-01T22:07:13.039174000 281.344685s notice: All client connections closed.
+2020-08-01T22:07:13.039181000 281.344692s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T22:07:13.066367000 281.371878s notice: Storage engine shut down.
+2020-08-01T22:07:19.173347000 0.040274s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-01T22:07:19.189026000 0.055949s notice: Running on Darwin 19.6.0 x86_64
+2020-08-01T22:07:19.189138000 0.056058s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-01T22:07:19.232634000 0.099553s info: Automatically using cache size of 100 MB
+2020-08-01T22:07:19.232644000 0.099563s warn: Cache size does not leave much memory for server and query overhead (available memory: 702 MB).
+2020-08-01T22:07:19.232657000 0.099576s warn: Cache size is very low and may impact performance.
+2020-08-01T22:07:19.257477000 0.124395s notice: Listening for intracluster connections on port 29015
+2020-08-01T22:07:19.260145000 0.127063s notice: Listening for client driver connections on port 28015
+2020-08-01T22:07:19.260264000 0.127183s notice: Listening for administrative HTTP connections on port 8080
+2020-08-01T22:07:19.260272000 0.127190s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T22:07:19.260280000 0.127198s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T22:07:19.260287000 0.127204s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1565:ccf0:edb1:cdae%10, fe80::1801:df61:9807:9c7d%4, fe80::5b24:28e9:9014:2d9e%11, fe80::cc22:11ff:fed8:f26b%8, fe80::cc22:11ff:fed8:f26b%9
+2020-08-01T22:07:19.260293000 0.127211s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-01T22:12:14.241683000 295.099729s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: Starting a new Raft election for term 1.
+2020-08-01T22:12:14.244947000 295.102993s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: Added replica on this server.
+2020-08-01T22:12:14.272362000 295.130406s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: This server is Raft leader for term 1. Latest log index is 0.
+2020-08-01T22:15:45.671099000 506.522803s notice: Server got SIGINT from pid 4611, uid 501; shutting down...
+2020-08-01T22:15:45.673067000 506.524771s notice: Shutting down client connections...
+2020-08-01T22:15:45.683529000 506.535232s notice: All client connections closed.
+2020-08-01T22:15:45.683543000 506.535245s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-01T22:15:45.730756000 506.582458s notice: Storage engine shut down.
+2020-08-03T08:58:27.938852000 0.280867s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-03T08:58:27.952682000 0.294693s notice: Running on Darwin 19.6.0 x86_64
+2020-08-03T08:58:27.952836000 0.294847s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-03T08:58:28.009679000 0.351689s info: Automatically using cache size of 100 MB
+2020-08-03T08:58:28.009691000 0.351701s warn: Cache size does not leave much memory for server and query overhead (available memory: 881 MB).
+2020-08-03T08:58:28.009717000 0.351727s warn: Cache size is very low and may impact performance.
+2020-08-03T08:58:28.035914000 0.377924s notice: Listening for intracluster connections on port 29015
+2020-08-03T08:58:28.085164000 0.427174s notice: Listening for client driver connections on port 28015
+2020-08-03T08:58:28.085715000 0.427725s notice: Listening for administrative HTTP connections on port 8080
+2020-08-03T08:58:28.085722000 0.427732s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1820:6618:546b:cf14%4, fe80::5518:5024:1dd6:bb4f%11, fe80::a852:33ff:feac:9d0b%8, fe80::a852:33ff:feac:9d0b%9, fe80::cb5e:f6ea:121a:e6a9%10
+2020-08-03T08:58:28.085731000 0.427741s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1820:6618:546b:cf14%4, fe80::5518:5024:1dd6:bb4f%11, fe80::a852:33ff:feac:9d0b%8, fe80::a852:33ff:feac:9d0b%9, fe80::cb5e:f6ea:121a:e6a9%10
+2020-08-03T08:58:28.085735000 0.427745s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1820:6618:546b:cf14%4, fe80::5518:5024:1dd6:bb4f%11, fe80::a852:33ff:feac:9d0b%8, fe80::a852:33ff:feac:9d0b%9, fe80::cb5e:f6ea:121a:e6a9%10
+2020-08-03T08:58:28.085742000 0.427752s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-03T08:58:29.713481000 2.055485s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: Starting a new Raft election for term 2.
+2020-08-03T08:58:29.726906000 2.068910s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: This server is Raft leader for term 2. Latest log index is 2.
+2020-08-03T08:59:25.293786000 57.635571s notice: Server got SIGINT from pid 3613, uid 501; shutting down...
+2020-08-03T08:59:25.294060000 57.635844s notice: Shutting down client connections...
+2020-08-03T08:59:25.301166000 57.642951s notice: All client connections closed.
+2020-08-03T08:59:25.301173000 57.642956s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-03T08:59:25.350023000 57.691808s notice: Storage engine shut down.
+2020-08-03T08:59:32.061126000 0.021923s notice: Running rethinkdb 2.4.0 (CLANG 11.0.3 (clang-1103.0.32.62))...
+2020-08-03T08:59:32.073360000 0.034153s notice: Running on Darwin 19.6.0 x86_64
+2020-08-03T08:59:32.073424000 0.034216s notice: Loading data from directory /Users/jp/development/svelte/svelte-node/rethinkdb_data
+2020-08-03T08:59:32.107095000 0.067887s info: Automatically using cache size of 100 MB
+2020-08-03T08:59:32.107109000 0.067901s warn: Cache size does not leave much memory for server and query overhead (available memory: 904 MB).
+2020-08-03T08:59:32.107116000 0.067907s warn: Cache size is very low and may impact performance.
+2020-08-03T08:59:32.119033000 0.079825s notice: Listening for intracluster connections on port 29015
+2020-08-03T08:59:32.135854000 0.096646s notice: Listening for client driver connections on port 28015
+2020-08-03T08:59:32.135959000 0.096751s notice: Listening for administrative HTTP connections on port 8080
+2020-08-03T08:59:32.135962000 0.096754s notice: Listening on cluster addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1820:6618:546b:cf14%4, fe80::5518:5024:1dd6:bb4f%11, fe80::a852:33ff:feac:9d0b%8, fe80::a852:33ff:feac:9d0b%9, fe80::cb5e:f6ea:121a:e6a9%10
+2020-08-03T08:59:32.135965000 0.096756s notice: Listening on driver addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1820:6618:546b:cf14%4, fe80::5518:5024:1dd6:bb4f%11, fe80::a852:33ff:feac:9d0b%8, fe80::a852:33ff:feac:9d0b%9, fe80::cb5e:f6ea:121a:e6a9%10
+2020-08-03T08:59:32.135976000 0.096768s notice: Listening on http addresses: 127.0.0.1, 192.168.2.74, ::1, fe80::1%1, fe80::1820:6618:546b:cf14%4, fe80::5518:5024:1dd6:bb4f%11, fe80::a852:33ff:feac:9d0b%8, fe80::a852:33ff:feac:9d0b%9, fe80::cb5e:f6ea:121a:e6a9%10
+2020-08-03T08:59:32.135979000 0.096770s notice: Server ready, "jp_local_w16" b7e99713-a264-4912-b347-c21f8fce2c52
+2020-08-03T08:59:33.887084000 1.847869s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: Starting a new Raft election for term 3.
+2020-08-03T08:59:33.913519000 1.874305s info: Table 3a4b8251-35f5-48bb-88ea-7a45ac6d6b1a: This server is Raft leader for term 3. Latest log index is 6.
+2020-08-03T09:02:17.859638000 165.819777s notice: Server got SIGINT from pid 434, uid 501; shutting down...
+2020-08-03T09:02:17.859750000 165.819888s notice: Shutting down client connections...
+2020-08-03T09:02:17.878466000 165.838604s notice: All client connections closed.
+2020-08-03T09:02:17.878478000 165.838615s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-08-03T09:02:17.900573000 165.860711s notice: Storage engine shut down.

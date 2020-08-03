@@ -21,9 +21,7 @@ router.get("/", async (req, res) => {
         res.send(500, { error: error.message });
       };
     });
-  }
-
-  if (!searchTable) {
+  } else if (!searchTable) {
     // create table
     await searchDatabase.tableCreate(tableName).run(req._rdbConn).then(() => {
       console.log(`table ${tableName} was created`);
@@ -32,17 +30,17 @@ router.get("/", async (req, res) => {
         res.send(500, { error: error.message });
       };
     });
-  }
+  } else {
+    try {
+      const libros = await searchTable.orderBy("id").run(req._rdbConn);
 
-  try {
-    const libros = await searchTable.orderBy("id").run(req._rdbConn);
-
-    if (!libros) {
-      throw new Error("There are not books");
+      if (!libros) {
+        throw new Error("There are not books");
+      }
+      res.status(200).json(libros);
+    } catch (error) {
+      res.status(400).json({ message: error.message });
     }
-    res.status(200).json(libros);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
   }
 });
 
