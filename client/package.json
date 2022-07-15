@@ -8,7 +8,7 @@
     "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
-    "svelte": "^3.24.0"
+    "svelte": "^3.49.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
